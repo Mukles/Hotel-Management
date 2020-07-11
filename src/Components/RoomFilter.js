@@ -15,7 +15,7 @@ const RoomFilter = (props) =>{
           <form>
             <div className='row'>
               {/* Room Type */}
-              <div className='col-md-2'>
+              <div className='col-lg-2'>
               <div className="form-group">
                 <label htmlFor="type">Rooms Type: </label>
                 <select onChange={onchageHandler} value={type}  name='type' id='type' className="form-control shadow-0">
@@ -27,7 +27,7 @@ const RoomFilter = (props) =>{
                 </div>
               </div>
               { /* Guest of capacity */ }
-              <div className='col-md-2'>
+              <div className='col-lg-2'>
               <div className="form-group">
                 <label htmlFor="capacity">Guest: </label>
                 <select onChange={onchageHandler} name='capacity' value={capacity} id='capacity' className="form-control shadow-0">
@@ -38,14 +38,14 @@ const RoomFilter = (props) =>{
                 </div>
               </div>
             {/*Pirce Range */}
-            <div className='col-md-2'>
+            <div className='col-lg-2'>
               <div className="form-group">
                 <label htmlFor="price">Rooms Price: ${price} </label>
                 <input type="range" onChange={onchageHandler} value={price} name='price' className="form-control-range mt-3" id="range" max={maxPrice} min={minPrice} />
               </div>
             </div>
             {/* Room Sized */}
-            <div className='col-md-2 d-flex'>
+            <div className='col-lg-2 d-flex'>
               <div className="form-group mb-2 w-50 mr-1">
                 <input type="number"  className="form-control" name='minSize' min={minSize} max={maxSize} value={minSize} onChange={onchageHandler} />
               </div>
@@ -54,7 +54,7 @@ const RoomFilter = (props) =>{
               </div>
             </div>
             {/*breackfast and pets */}
-            <div className='col-md-2'>
+            <div className='col-lg-2'>
               <div className="form-check">
                 <input className="form-check-input" name='breakfast' type="checkbox" checked={breakfast} id="breakfast" onChange={onchageHandler} />
                 <label className="form-check-label" htmlFor="breakfast">Breakfast</label>
