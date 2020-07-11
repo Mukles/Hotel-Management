@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Provider, Consumer } from './ContexProvider';
+import { Provider } from './ContexProvider';
 import { Dots } from 'react-preloaders';
 import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
 import items from '../data';
