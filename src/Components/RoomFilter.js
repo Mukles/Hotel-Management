@@ -13,7 +13,7 @@ const RoomFilter = (props) =>{
       <Title cls='room-filter' title='Search Rooms' />
         <div className='container'>
           <form>
-            <div className='row'>
+            <div className='row mb-3'>
               {/* Room Type */}
               <div className='col-lg-2'>
               <div className="form-group">
